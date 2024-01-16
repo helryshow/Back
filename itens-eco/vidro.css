@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(to right, #82D173, #4E934A, #007B3D, #005A30);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+
+p {
+    margin-bottom: 10px;
+}

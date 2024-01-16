@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+.categories-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.category {
+    display: inline-block;
+    width: 200px;
+    padding: 15px;
+    border-radius: 2px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease; 
+    text-align: center;
+    font-weight: 700;
+}
+
+
+.plastic { background-color: #e74c3c; } 
+.organic { background-color: #8B4513; } 
+.paper { background-color: #3498db; } 
+.metal { background-color: #f1c40f; } 
+.glass { background-color: #2ecc71; } 
+.wood { background-color: #2c3e50; } 
+
+.category:hover {
+    background-color: #555;
+}
+
+.main-nav{
+    margin: 2px;
+    text-align: center;
+    background: linear-gradient(to bottom, #8d8a8a, #fff);
+    height: 20px;
+}
+
+.slzimg{
+    height: 65px;
+    width: auto;
+    position: absolute;
+    top: 2.5%;
+    left: 6%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-item{
+    text-decoration: none;
+    justify-content: center;
+    text-align: centerc;
+    color: black;
+    font-size: 20px;
+}
+
+.sessão-01 {
+    float: left;    
+}
+
+.sessão-02 {
+    text-align: right; 
+    padding: 20px;
+}
+
+
+
+.ecoponto-fonte{
+    position: absolute;
+    top: 65%;
+    left: 75%;
+    transform: translate(-50%, -50%);;
+    padding: 20px;
+    height: 220px;
+}
+
+
+
+.ecoponto-logo {
+    animation: rotate3DAnimation 5s linear infinite;
+    transform-origin: center center;
+}
+
+@keyframes rotate3DAnimation {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.ecoponto-logo {
+    position: absolute;
+    top: 30%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+    height: 270px;
+}
+
+
+.titulo{
+    margin-top: 170px;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.btn-ecoponto{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    padding: 10px;
+    width: 350px;
+    border-radius: 999999px;
+    color: #fff;
+    background-color: #0e9e4a;
+    border: none;
+    font-size: 20px;
+}
+
+.btn-denuncia{
+    position: absolute;
+    top: 66%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    padding: 10px;
+    width: 350px;
+    border-radius: 999999px;
+    color: #fff;
+    background-color: #ed2929;
+    border: none;
+    font-size: 20px;
+}
+
+.link-btn {
+    text-decoration: none;
+    color: #fff;
+}
